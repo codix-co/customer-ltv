@@ -1,0 +1,16 @@
+{
+  "name": "codix-customer-ltv",
+  "version": "1.0.0",
+  "description": "Assign users to user role based on their lifetime value orders.",
+  "main": "index.php",
+  "scripts": {
+    "dev": "echo DEV",
+    "prod": "echo PROD",
+    "bundle": "npm run prod && zip codix-customer-ltv.zip ./ -x \"*.DS_Store\" -x \"*.git*\" -x \"composer.*\" -x \"package*\" -x \"phpcs.xml\" -x \"webpack.mix.js\" -x \"mix-manifest.json\" -x \"vendor/*\" -x \"node_modules/*\" -x \"logs/*\" -x \"src/*\" -x \".idea/*\" -r\n"
+  },
+  "keywords": [
+    "wordpress-plugin"
+  ],
+  "author": "Dor Shiff <dor@codix.co>",
+  "license": "GPL-3.0"
+}
